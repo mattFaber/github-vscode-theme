@@ -8,13 +8,14 @@ const dimmedColors = require("@primer/primitives/dist/json/colors/dark_dimmed.js
 
 function getColors(theme) {
 
-  switch(theme) {
+
+  switch (theme) {
     case "light":
       return lightColors;
     case "light_high_contrast":
       return lightHighContrastColors;
     case "light_colorblind":
-        return lightColorblindColors;
+      return lightColorblindColors;
     case "dark":
       return darkColors;
     case "dark_high_contrast":
